@@ -1,8 +1,9 @@
 {
     "name": "@florianluther/ftl-logger",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "This package provides an abstract logger and a default console implementation.",
     "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
     "scripts": {
         "build": "tsc -b tsconfig.json",
         "test": "echo \"Error: no test specified\" && exit 1"
