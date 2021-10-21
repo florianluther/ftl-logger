@@ -1,6 +1,6 @@
 {
     "name": "@florianluther/ftl-logger",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "This package provides an abstract logger and a default console implementation.",
     "main": "./dist/index.js",
     "scripts": {
