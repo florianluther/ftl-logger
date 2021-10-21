@@ -1,0 +1,22 @@
+name: Publish Package
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Build and Publish
+        run: |
+          echo Build and Publish
+          npm config set //npm.pkg.github.com/:_authToken $TOKEN
+          npm install
+          npm run build
+          npm publish
+        env:
+          TOKEN: ${{secrets.GITHUB_TOKEN}}
