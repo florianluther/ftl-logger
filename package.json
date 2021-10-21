@@ -1,0 +1,25 @@
+{
+  "name": "ftl-logger",
+  "version": "1.0.0",
+  "description": "This package provides an abstract logger and a default console implementation.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -b tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/florianluther/ftl-logger.git"
+  },
+  "author": "Florian Luther",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/florianluther/ftl-logger/issues"
+  },
+  "homepage": "https://github.com/florianluther/ftl-logger#readme",
+  "devDependencies": {
+    "@types/node": "^16.11.1",
+    "prettier": "^2.4.1",
+    "typescript": "^4.4.4"
+  }
+}
